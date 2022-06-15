@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 function Hero() {
   return (
     <main className="hero">
+      <div className="header-sep"></div>
       <div className="hero-flex">
         <div className="hero-container">
           <div className="hero-title">

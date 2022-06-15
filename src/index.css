@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Roboto+Flex:opsz@8..144&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 /* Universal Styles */
 :root {
-  --mainColor: #fff;
-  --mainColorLight: #566cc3;
-  --secondaryColor: #7b8086;
-  --textColor: #000;
+  /* --mainColor: #fff;
+  --secondaryColor: #7b8086; */
+  --mainColor: #414353;
+  --secondaryColor: #2c2e39;
+  --tertiaryColor: #3a4151;
+  --textColor: #fff;
+  --textHoverColor: rgb(229, 207, 253);
 
   background-color: var(--mainColor);
 }
@@ -20,6 +23,8 @@ body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+
+  color: var(--textColor);
 }
 
 *,
@@ -49,7 +54,7 @@ body {
 
 .seperator {
   margin: 0.5rem 0 1rem 1rem;
-  background-color: black;
+  background-color: rgb(81, 94, 150);
   height: 2.5px;
   width: 70px;
 }
@@ -66,7 +71,7 @@ body {
 
 .a-nostyle {
   text-decoration: none;
-  color: black;
+  color: var(--textColor);
 }
 
 /* End of Universal Styles */
@@ -79,12 +84,12 @@ header {
   justify-content: space-between;
   height: 12.75vh;
   padding: 0 0 0 2.5rem;
-  background: var(--mainColor);
+  background: var(--secondaryColor);
   color: var(--textColor);
 }
 
 .header-sep {
-  background-color: black;
+  background-color: rgb(114, 111, 111);
   margin: 0 3rem;
   height: 0.25vh;
 }
@@ -115,7 +120,7 @@ nav .link:hover::after {
 }
 
 nav .link:hover {
-  color: var(--secondaryColor);
+  color: var(--textHoverColor);
 }
 
 .nav-btn {
@@ -143,7 +148,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #a9aeb6;
+  /* background-color: #a9aeb6; */
+  background-color: var(--tertiaryColor);
   border-top: 1px solid #7b8086;
   padding: 1rem;
 }
@@ -181,8 +187,7 @@ footer {
 
 .hero-header {
   font-size: 3rem;
-  font-family: "Alex-brush", cursive;
-  font-weight: 20;
+  font-family: "Montserrat", sans-serif;
 }
 
 .hero-title,
@@ -199,18 +204,18 @@ footer {
 .hero-btn {
   margin-top: 1.5rem;
   padding: 0.5rem;
-  background-color: #fff;
-  color: #000;
-  border: 1px solid #000;
+  background-color: rgb(81, 94, 150);
+  color: var(--textColor);
+  border: 1px solid var(--textHoverColor);
   border-radius: 12px;
   transition: all 200ms;
   cursor: pointer;
 }
 
 .hero-btn:hover {
-  background-color: #000;
+  background-color: var(--textHoverColor);
   color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0);
+  border: 1px solid rgb(81, 94, 150);
 }
 
 /* End of Hero Styles */
@@ -274,7 +279,7 @@ footer {
   margin-bottom: 1rem;
   border-radius: 5px;
   width: 50vw;
-  box-shadow: 0px 0px 10px 4px rgba(164, 162, 162, 0.296);
+  box-shadow: 0px 0px 5px 2px var(--textColor);
 
   color: white;
   cursor: pointer;
@@ -310,7 +315,7 @@ footer {
 }
 
 .shown {
-  max-height: 10000px;
+  max-height: 1000px;
   transition: max-height 1s ease-in;
 }
 

@@ -43,7 +43,6 @@ function NavBar() {
           <FaBars />
         </button>
       </header>
-      <div className="header-sep"></div>
     </>
   );
 }
