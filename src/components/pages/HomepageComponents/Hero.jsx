@@ -11,8 +11,8 @@ function Hero() {
             <h3>Junior Developer</h3>
             <p>
               I am a junior developer who began self-teaching in July of 2021. I
-              am a JavaScript and React Developer and am striving to be a full
-              stack developer
+              am a JavaScript and React Developer with an aim to be a full stack
+              developer
             </p>
           </div>
           <div className="hero-image">

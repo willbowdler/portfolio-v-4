@@ -168,7 +168,10 @@ footer {
 /* Hero Styles */
 
 .hero {
-  height: 87vh;
+  height: 88.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero-flex {
@@ -177,8 +180,6 @@ footer {
   height: 70vh;
   align-items: center;
   justify-content: center;
-
-  margin: 1rem;
 }
 
 .hero-container {
@@ -206,15 +207,15 @@ footer {
   padding: 0.5rem;
   background-color: rgb(81, 94, 150);
   color: var(--textColor);
-  border: 1px solid var(--textHoverColor);
+  border: 1px solid white;
   border-radius: 12px;
   transition: all 200ms;
   cursor: pointer;
 }
 
 .hero-btn:hover {
-  background-color: var(--textHoverColor);
-  color: #fff;
+  background-color: white;
+  color: rgb(81, 94, 150);
   border: 1px solid rgb(81, 94, 150);
 }
 
@@ -278,8 +279,8 @@ footer {
   background-color: #7b8086;
   margin-bottom: 1rem;
   border-radius: 5px;
+  border: 1px solid #b8bdc2;
   width: 50vw;
-  box-shadow: 0px 0px 5px 2px var(--textColor);
 
   color: white;
   cursor: pointer;
@@ -366,6 +367,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+  margin: auto 0;
   min-height: calc(100vh - 105px - 81px);
 }
 
