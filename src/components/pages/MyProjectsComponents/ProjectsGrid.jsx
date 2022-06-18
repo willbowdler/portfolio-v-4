@@ -1,4 +1,4 @@
-function ProjectsGrid({ title, data }) {
+function ProjectsGrid({ title, data, fadeIn }) {
   return (
     <>
       {title ? (
@@ -8,7 +8,7 @@ function ProjectsGrid({ title, data }) {
           <br />
         </>
       ) : null}
-      <div className="projects-grid">
+      <div className={fadeIn ? "projects-grid section" : "projects-grid"}>
         {data.map((item, i) => {
           return (
             <div className="g-item">

@@ -598,11 +598,17 @@ textarea {
   .contact-form {
     width: 100%;
     margin: 0 0 10px 0;
+    border-radius: 0px;
   }
 
   .contact-head {
     width: 100%;
     margin: 10px 0 10px 0;
+  }
+
+  form button {
+    margin: auto;
+    margin-top: 1rem;
   }
 
   /* Projects Responsive */

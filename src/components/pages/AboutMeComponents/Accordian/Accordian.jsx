@@ -16,7 +16,7 @@ function Accordian() {
   };
 
   return (
-    <div>
+    <div className="section">
       <div className="acc-flex">
         <div className="acc-section-head">
           <h1>My Developement Skills</h1>
