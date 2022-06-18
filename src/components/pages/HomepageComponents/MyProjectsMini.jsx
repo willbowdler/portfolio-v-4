@@ -3,7 +3,7 @@ import ProjectsGrid from "../MyProjectsComponents/ProjectsGrid";
 
 function MyProjectsMini() {
   return (
-    <div className="hp-section section section-hidden">
+    <div className="hp-section">
       <h1 className="subheader">My Projects</h1>
       <div className="seperator"></div>
       {/* <div className="projects-grid">

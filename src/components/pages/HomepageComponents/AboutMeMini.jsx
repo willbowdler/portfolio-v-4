@@ -2,7 +2,7 @@ import { useRef } from "react";
 
 function AboutMeMini() {
   return (
-    <div className="hp-section">
+    <div className="hp-section section">
       <div className="abmini-cont">
         <div className="abm-bio">
           <h1>Who Am I?</h1>

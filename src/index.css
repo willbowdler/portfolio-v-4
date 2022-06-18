@@ -66,7 +66,7 @@ body {
 }
 
 .hp-section {
-  margin-bottom: 2rem;
+  margin: 0 4.5rem 2rem 4.5rem;
 }
 
 .a-nostyle {
@@ -241,8 +241,8 @@ footer {
 
 .abmini-cont {
   display: flex;
-  justify-content: space-around;
-  margin: 0 0 5rem 0;
+  justify-content: space-between;
+  margin: 0 1rem 5rem 1rem;
 }
 
 .abmini-btn {
@@ -443,6 +443,7 @@ textarea {
 }
 
 .g-item {
+  margin: 0.5rem;
   grid-area: "g-item";
   align-self: center;
   margin-bottom: 1.5rem;
@@ -458,7 +459,7 @@ textarea {
 }
 
 .project-img {
-  width: 400px;
+  width: 360px;
   margin: 1rem;
   /* temp styles... do not keep */
 }
@@ -527,7 +528,15 @@ textarea {
   .link {
     font-size: 1.5rem;
   }
-  /* Hero Responsive */
+  /* Homepage Responsive */
+  .hero {
+    margin: 0 0.9rem;
+  }
+
+  .hp-section {
+    margin: 0 0.9rem;
+  }
+
   .hero-container {
     flex-direction: column-reverse;
     text-align: center;
@@ -613,6 +622,7 @@ textarea {
 
   /* Projects Responsive */
   .projects-container {
+    margin: 0 0.9rem;
     padding: 0;
   }
 
@@ -631,11 +641,7 @@ textarea {
   }
 
   .project-img {
-    width: 300px;
-  }
-
-  .g-item {
-    margin-bottom: 0.5rem;
+    width: 375px;
   }
 
   /* Footer Styles */
@@ -645,5 +651,11 @@ textarea {
   }
   .foot-text {
     font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .project-img {
+    width: 300px;
   }
 }
