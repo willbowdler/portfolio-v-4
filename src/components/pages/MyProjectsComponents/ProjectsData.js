@@ -1,41 +1,41 @@
 // import Pizza from "../../../images/pizza.jpeg";
-import PlaceHolder from "../../../images/placeholder.png";
+import PlaceHolder from '../../../images/placeholder.png';
 
 export const ProjectsData = [
   {
-    title: "Weather Application",
-    bio: "This is a simple weather application that tells you the weather in your location. Built with the fetch API.",
+    title: 'Weather Application',
+    bio: 'This is a simple weather application that tells you the weather in your location. Built with the fetch API.',
     img: <img className="project-img" alt="Project Image" src={PlaceHolder} />,
-    link: "https://youtube.com",
+    link: 'https://youtube.com',
   },
   {
-    title: "q",
-    bio: "",
+    title: 'q',
+    bio: '',
     img: <img className="project-img" alt="Project Image" src={PlaceHolder} />,
-    link: "",
+    link: '',
   },
   {
-    title: "1",
-    bio: "1",
+    title: '1',
+    bio: '1',
     img: <img className="project-img" alt="Project Image" src={PlaceHolder} />,
-    link: "",
+    link: '',
   },
   {
-    title: "William",
-    bio: "q",
+    title: 'William',
+    bio: 'q',
     img: <img className="project-img" alt="Project Image" src={PlaceHolder} />,
-    link: "",
+    link: '',
   },
   {
-    title: "Colton",
-    bio: "1",
+    title: 'Colton',
+    bio: '1',
     img: <img className="project-img" alt="Project Image" src={PlaceHolder} />,
-    link: "",
+    link: '',
   },
   {
-    title: "1",
-    bio: "1",
+    title: '1',
+    bio: '1',
     img: <img className="project-img" alt="Project Image" src={PlaceHolder} />,
-    link: "",
+    link: '',
   },
 ];

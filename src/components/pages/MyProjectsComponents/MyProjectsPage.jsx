@@ -9,7 +9,7 @@ function MyProjectsPage({}) {
       <br />
       <ProjectsGrid data={ProjectsData} title={"Personal Projects"} />
       <div className="seperator-2"></div>
-      <ProjectsGrid data={TutorialData} title={"Tutorial Projects"} />
+      <ProjectsGrid data={TutorialData} title={"Tutorial Projects"} fadeIn={'section'}/>
     </div>
   );
 }
