@@ -1,11 +1,11 @@
-import GitHubSection from "./GitHubSection";
-import Accordian from "./Accordian/Accordian";
+import GitHubSection from './GitHubSection'
+import Accordian from './Accordian/Accordian'
 
 function AboutMePage() {
   return (
     <>
-      <div className="abm-cont">
-        <div className="abm-bio">
+      <div className='abm-cont'>
+        <div className='abm-bio'>
           <h1>Who Am I?</h1>
           <p>
             I am a follower of Christ and I am a self-taught programmer with
@@ -23,13 +23,28 @@ function AboutMePage() {
             <br />
           </p>
         </div>
-        <div className="abm-picture">he</div>
+        <div className='abm-picture'>he</div>
       </div>
-      <div className="seperator-2"></div>
-      <Accordian />
+      <div className='seperator-2'></div>
+      <div className='section'>
+        <div className='acc-flex'>
+          <div className='acc-section-head'>
+            <h1>My Developement Skills</h1>
+            <h4>
+              <a href='../../images/placeholder.png' target='_blank'>
+                PDF Link to Technical Skills (url will be in FTP. copy link
+                later)
+              </a>
+            </h4>
+          </div>
+          <Accordian first={true} />
+          <Accordian first={false} />
+        </div>
+        <div className='seperator-2'></div>
+      </div>
       <GitHubSection />
     </>
-  );
+  )
 }
 
-export default AboutMePage;
+export default AboutMePage
